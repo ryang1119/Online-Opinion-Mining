@@ -42,9 +42,9 @@ Each data instance in OOMB consists of:
       "opinion": "reclaims a physical volume knob",
       "evidence_sent": "..."
     }
-  ...
+  "..."
 ],
-  "summary": "The 2021 Honda Ridgeline is ...
+  "summary": "The 2021 Honda Ridgeline is ..."
 }
 ```
 ---
