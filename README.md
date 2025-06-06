@@ -2,7 +2,7 @@
 
 This repository contains the code and data for the OOMB benchmark introduced in “Can Large Language Models be Effective Online Opinion Miners?”. OOMB is designed to evaluate the capabilities of large language models (LLMs) to perform both extractive and abstractive opinion mining across realistic, multi-source online content.
 
-![Figure](images/OOMG_fig.png)
+![Figure](image/OOMG_fig.png)
 
 ---
 
