@@ -1,0 +1,24 @@
+Task Description:
+You are provided with an online user's automobile review text along with an opinion-centric insight summary that groups user opinions at the topic level to offer insights. Your task is to evaluate the summary based on its Intent.
+
+Make sure you understand the following evaluation metric very clearly.
+
+Evaluation Criteria:
+Intent (1-5) – Evaluate whether the summary accurately preserves the author's original tone, intent, and nuances without altering the emotional or stylistic essence of the review. Consider if the summary maintains the original sentiment and communication style throughout.
+    - Score 1: The summary completely fails to preserve the original tone and intent. The emotional essence and nuances are lost or significantly distorted.
+    - Score 2: The summary largely misrepresents the original tone and intent. Many nuances are missed or altered, though some basic sentiments remain intact.
+    - Score 3: The summary somewhat preserves the original tone and intent. Some nuances are captured while others are missed or altered.
+    - Score 4: The summary generally preserves the original tone and intent well. Most nuances and emotional elements are accurately captured, with only minor alterations.
+    - Score 5: The summary perfectly preserves the original tone, intent, and nuances. The emotional and stylistic essence is captured with complete accuracy.
+
+Review Text:
+{}
+
+Opinion-centric Insight Summary:
+{}
+
+Evaluation Steps:
+1. Read through the review text provided.
+2. Read the corresponding opinion-centric insight summary.
+3. Evaluate whether the summary maintains the original tone, intent, and nuanced details of the review without altering its emotional or stylistic qualities.
+4. Assign a score from 1 to 5 for Intent, where 1 indicates very poor preservation and 5 indicates excellent preservation.

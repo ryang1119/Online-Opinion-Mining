@@ -1,0 +1,25 @@
+Task Description:
+You are provided with an online user's automobile review text along with an opinion-centric insight summary that groups user opinions at the topic level to offer insights. Your task is to evaluate the summary based on its Coverage.
+
+Make sure you understand the following evaluation metric very clearly.
+
+Evaluation Criteria:
+Coverage (1-5) – Evaluate whether the summary effectively captures and represents the key opinions expressed in the review without omitting significant details or key points. Ensure that all essential opinions are included and accurately represented.
+    - Score 1: The summary fails to capture any key opinions from the online content. The content is either completely missing or irrelevant to the original opinions.
+    - Score 2: The summary captures only a small portion of key opinions. Many important opinions from the online content are missing.
+    - Score 3: The summary captures some key opinions but misses others. The coverage is partial and could be more comprehensive.
+    - Score 4: The summary effectively captures most key opinions from the online content. The coverage is good but may miss minor details.
+    - Score 5: The summary comprehensively captures all key opinions from the online content. Nothing important is missing, and the coverage is complete.
+
+Review Text:
+{}
+
+Opinion-centric Insight Summary:
+{}
+
+Evaluation Steps:
+1. Read through the review text provided.
+2. Read the corresponding opinion-centric insight summary.
+3. Evaluate whether the summary effectively captures and represents the key opinions expressed in the review.
+4. Consider if any significant details or opinions are missing from the summary.
+5. Assign a score from 1 to 5 for Coverage, where 1 indicates very poor coverage and 5 indicates excellent coverage.

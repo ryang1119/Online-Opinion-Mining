@@ -1,0 +1,22 @@
+Task Description: You are given two lists of tuples, each in the form [(entity, feature, opinion), (entity, feature, opinion), ...]. One list represents the Gold (correct) tuples, and the other list represents the Model's Predicted tuples. Your goal is to calculate four values:
+    - matched_pred_tuple: The matched Predicted tuple.
+    - matched_gold_tuple: The matched Gold tuple.
+
+Match Criteria:
+    - Examine the two lists of tuples to identify their main points.
+    - Convert each element (entity, feature, opinion) to lowercase before comparing (e.g., "kia soul" vs. "Kia Soul" are equivalent).
+    - Allow flexibility when matching tuples by considering semantic equivalence, synonyms, rephrased expressions, or other valid variations that convey the same context or meaning. For instance, the following cases should be considered as valid matches:
+          • Pred: ("toyota corolla", "brakes", "getting hot")  
+            Gold: ("toyota corolla le", "brakes", "getting hot")
+          • Pred: ("toyota camry", "null", "looks better")  
+            Gold: ("camry", "looks", "better")
+          • Pred: ("porsche 911", "performance", "can go effortlessly fast")  
+            Gold: ("porsche 911", "drive", "effortlessly fast")
+          • Pred: ("aston martin vanquish", "rear badge", "would look better")  
+            Gold: ("aston martin vanquish", "badge", "better")
+    - A tuple is considered a relaxed match if all three elements are semantically equivalent after applying these transformations.
+    - Do not count a match more than once if there are duplicates.
+
+Output Format:
+    - Return your results in JSON format only, with the following structure: {'matched_tuple_pair':[{'matched_pred_tuple': ('entity', 'feature', 'opinion'), 'matched_gold_tuple': ('entity', 'feature', 'opinion')}, {'matched_pred_tuple': ('entity', 'feature', 'opinion'), 'matched_gold_tuple': ('entity', 'feature', 'opinion')}, ... {'matched_pred_tuple': ('entity', 'feature', 'opinion'), 'matched_gold_tuple': ('entity', 'feature', 'opinion')}]} 
+

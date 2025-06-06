@@ -1,0 +1,24 @@
+Task Description:
+You are provided with an online user's automobile review text along with an opinion-centric insight summary that groups user opinions at the topic level to offer insights. Your task is to evaluate the summary based on its Specificity.
+
+Make sure you understand the following evaluation metric very clearly.
+
+Evaluation Criteria:
+Specificity (1-5) – Evaluate whether the summary presents meaningful and relevant details by including concrete information rather than being vague or overly generic. Ensure that the summary provides clear, detailed points that directly relate to the review content.
+    - Score 1: The summary is extremely vague and generic, lacking any meaningful details. It uses broad generalizations without specific examples or descriptions.
+    - Score 2: The summary includes very few specific details. Most information is presented in a general way without concrete examples.
+    - Score 3: The summary includes some specific details but could be more precise. There is a mix of specific and generic information.
+    - Score 4: The summary provides good specific details in most areas. The information is concrete and meaningful, though some minor points could be more detailed.
+    - Score 5: The summary is highly specific throughout, providing precise and meaningful details. All information is concrete with relevant examples and descriptions.
+
+Review Text:
+{}
+
+Opinion-centric Insight Summary:
+{}
+
+Evaluation Steps:
+1. Read through the review text provided.
+2. Read the corresponding opinion-centric insight summary.
+3. Evaluate whether the summary provides specific, concrete details and avoids overly general or ambiguous statements.
+4. Assign a score from 1 to 5 for Specificity, where 1 indicates very poor specificity and 5 indicates excellent specificity.

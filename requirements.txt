@@ -1,0 +1,22 @@
+accelerate==0.28.0
+langchain-core==0.3.31
+langchain-groq==0.2.3
+langsmith==0.3.2
+openai==1.60.1
+sentence-transformers==2.5.1
+sentencepiece==0.2.0
+sentry-sdk==1.42.0
+simpletransformers==0.63.11
+tooldantic @ git+https://github.com/nicholishen/tooldantic.git@b16592ba2b3a7892f01e9405c0c45b8819102ba9
+torch==2.5.1
+torchmetrics==1.0.3
+torchvision==0.20.1
+tornado==6.4
+tqdm==4.67.1
+transformers==4.48.1
+vllm==0.6.6.post1
+nltk
+evaluate
+bert-score
+autoacu
+rouge_score

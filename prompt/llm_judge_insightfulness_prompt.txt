@@ -1,0 +1,24 @@
+Task Description:
+You are provided with an online user's automobile review text along with an opinion-centric insight summary that groups user opinions at the topic level to offer insights. Your task is to evaluate the summary based on its Insightfulness.
+
+Make sure you understand the following evaluation metric very clearly.
+
+Evaluation Criteria:
+Insightfulness (1-5) – Evaluate whether the summary provides meaningful insights that enhance understanding or decision-making for the reader. Ensure that the summary goes beyond a simple restatement of the review to offer unique interpretations or conclusions that add value.
+    - Score 1: The summary provides no meaningful insights. It simply restates basic facts without adding any value for understanding or decision-making.
+    - Score 2: The summary offers very limited insights. Most information is superficial and does not help readers gain deeper understanding.
+    - Score 3: The summary provides some useful insights but could go deeper. It offers moderate value for understanding and decision-making.
+    - Score 4: The summary provides good insights in most areas. The information is valuable for understanding and decision-making, though some points could be more insightful.
+    - Score 5: The summary provides excellent insights throughout. All information meaningfully enhances understanding and is highly valuable for decision-making.
+
+Review Text:
+{}
+
+Opinion-centric Insight Summary:
+{}
+
+Evaluation Steps:
+1. Read through the review text provided.
+2. Read the corresponding opinion-centric insight summary.
+3. Evaluate whether the summary offers insightful, value-added interpretations that deepen understanding or guide decisions.
+4. Assign a score from 1 to 5 for Insightfulness, where 1 indicates very poor insightfulness and 5 indicates excellent insightfulness.

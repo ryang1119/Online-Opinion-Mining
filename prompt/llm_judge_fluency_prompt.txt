@@ -1,0 +1,24 @@
+Task Description:
+You are provided with an online user's automobile review text along with an opinion-centric insight summary that groups user opinions at the topic level to offer insights. Your task is to evaluate the summary based on its Fluency.
+
+Make sure you understand the following evaluation metric very clearly.
+
+Evaluation Criteria:
+Fluency (1-5) – Evaluate whether the summary is naturally written, grammatically correct, and easy to read. Consider whether the summary flows smoothly, uses proper grammar, and avoids awkward phrasing, ensuring it is accessible to the reader.
+    - Score 1: The summary is extremely difficult to read. It is filled with errors, awkward phrasing, and lacks proper grammar.
+    - Score 2: The summary is difficult to read. It contains many errors, awkward phrasing, and lacks proper grammar.
+    - Score 3: The summary is somewhat difficult to read. It has some errors, awkward phrasing, and lacks proper grammar.
+    - Score 4: The summary is generally easy to read. It has few errors, awkward phrasing, and lacks proper grammar.
+    - Score 5: The summary is extremely easy to read. It is filled with errors, awkward phrasing, and lacks proper grammar.
+
+Review Text:
+{}
+
+Opinion-centric Insight Summary:
+{}
+
+Evaluation Steps:
+1. Read through the review text provided.
+2. Read the corresponding opinion-centric insight summary.
+3. Evaluate whether the summary is written in a natural and grammatically correct manner with clear and smooth flow.
+4. Assign a score from 1 to 5 for Fluency, where 1 indicates very poor fluency and 5 indicates excellent fluency.

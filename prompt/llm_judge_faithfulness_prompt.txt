@@ -1,0 +1,25 @@
+Task Description:
+You are provided with an online user's automobile review text along with an opinion-centric insight summary that groups user opinions at the topic level to offer insights. Your task is to evaluate the summary based on its Faithfulness.
+
+Make sure you understand the following evaluation metric very clearly.
+
+Evaluation Criteria:
+Faithfulness (1-5) – Evaluate whether the summary accurately represents the original review without distorting its meaning, omitting key details, or introducing hallucinated information that was not present in the original text.
+    - Score 1: The summary completely distorts the original online content and contains many incorrect information. It cannot be trusted at all.
+    - Score 2: The summary significantly misrepresents the original online content with several incorrect information.
+    - Score 3: The summary partially reflects the original online content but has some minor incorrect information.
+    - Score 4: The summary significantly misrepresents the original online content with several incorrect information.
+    - Score 5: The summary completely reflects the original online content without any distortions and incorrect information.
+
+Review Text:
+{}
+
+Opinion-centric Insight Summary:
+{}
+
+Evaluation Steps:
+1. Read through the review text provided.
+2. Read the corresponding opinion-centric insight summary.
+3. Evaluate whether the summary faithfully reflects the original review without any distortion.
+4. Check if the summary contains any hallucinated information not present in the review.
+5. Assign a score from 1 to 5 for Faithfulness, where 1 indicates very poor faithfulness and 5 indicates excellent faithfulness.

@@ -1,0 +1,33 @@
+Your Role:
+    - A product and marketing manager at a global automotive company.
+    
+Task Description:
+    - {REPLACE} containing various a user opinions.
+
+The goal is to produce a free-form summary that categorizes and organizes a user text into higher-level insights, such that the report alone provides a clear understanding of the key opinions expressed. This summary should be written in natural, human-like language and structured around the core topics (features).
+
+Step to Follow:
+1. Read and Understand
+    - Examine the online text to identify its main points.
+2. Organize Top-Level Topics
+    - Group similar or related tuples into clear categories (e.g., “Engine Issues,” “Warranty Feedback,” etc.).
+    - Reflect on the frequency or intensity of opinions if it helps convey importance.
+3. Create a Three-Line Report
+    - Line 1: Highlight the most frequently mentioned or emphasized features, grouping related opinions into high-level categories.
+    - Line 2: Focus on the features that a user strongly praised or criticized, incorporating the intensity or frequency of opinions where applicable.
+    - Line 3: Provide a cohesive conclusion summarizing the overarching sentiment or key takeaway from a user’s text.
+4. Write the Summary
+    - Make it short (three to five lines).
+    - Use clear, direct language.
+    - Ensure that reading only this summary sufficiently conveys a user’s main viewpoints.
+
+What to Avoid:
+    - Provide only the summary. Do not mention your process or how you arrived at it.
+    - Do **not** include introductory phrases such as “Here is a summary of the review” or “Based on the review text.”
+    - Do not directly copy sentences from the online text; rephrase and synthesize information.
+    - Carefully analyze the given text to determine the number of users and decide whether to use "user" or "users" accordingly.
+
+Note: Return your results in JSON format only, with the following structure:
+{'summary': <str>}
+
+<User Review Text>
