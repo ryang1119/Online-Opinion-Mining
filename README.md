@@ -58,3 +58,23 @@ Based on this dataset, we design two complementary tasks:
 
 - **Opinion-Centric Insight Generation (OIG):**  
   Generate a concise, 3–5 sentence summary that captures overall sentiment trends, recurring themes, and notable strengths or weaknesses about the entity in an abstractive manner.
+
+## Citation
+
+```bibtex
+@article{heo2025can,
+  title={Can Large Language Models be Effective Online Opinion Miners?},
+  author={Heo, Ryang and Seo, Yongsik and Lee, Junseong and Lee, Dongha},
+  journal={arXiv preprint arXiv:2505.15695},
+  year={2025}
+}
+```
+
+---
+
+## Contact
+
+For questions, suggestions, or issues, feel free to reach out:
+
+- **Email:** [ryang1119@yonsei.ac.kr](mailto:ryang1119@yonsei.ac.kr)
+
